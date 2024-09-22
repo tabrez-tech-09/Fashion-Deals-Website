@@ -92,6 +92,7 @@ body {
   align-items:center;
   justify-content: center;
 }
+
 #navbar li {
   list-style: none;
   padding: 0 20px;
@@ -117,6 +118,12 @@ body {
   position: absolute;
   bottom: -4px;
   left: 20px;
+}
+
+#mobile {
+  display: none;
+  align-items: center;
+
 }
 /* -------- end the header -------------*/
 /*-------------------------------------------------------------------*/
@@ -475,13 +482,35 @@ footer .icon i:hover{
   color: red;
 }
 
-
-@media (max-width:799){
+@media (max-width:799px) {
   #navbar {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #E3E6F3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+}
+#navbar .active{
+  right: 0px;
+}
+#navbar li{
+  margin-bottom: 25px;
+}
+#mobile {
+  display: flex;
+  align-items: center;
 
+}
+#mobile i {
+  color: black;
+  font-size: 24px;
+  padding-left: 20px;
 }
 }
