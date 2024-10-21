@@ -485,6 +485,32 @@ footer .icon i:hover{
   color: red;
 }
 
+
+/* ---------------------  shop section start -------------------------- ----------------------------------*/
+
+#stayhome{
+  background-image: url(img/banner/b1.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+#stayhome h1{
+  color: white;
+}
+#stayhome p{
+  color: pink;
+}
+#stayhome p span {
+  color: red;
+}
+
+
+
 @media (max-width:799px) {
   .section-p1 {
     padding: 40px 80px;
