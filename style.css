@@ -509,6 +509,18 @@ footer .icon i:hover{
   color: red;
 }
 
+#pagesetion{
+  text-align: center;
+}
+#pagesetion a {
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: x-large;
+}
 
 
 @media (max-width:799px) {
