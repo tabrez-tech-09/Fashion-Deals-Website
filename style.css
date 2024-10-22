@@ -521,6 +521,61 @@ footer .icon i:hover{
   font-weight: 600;
   font-size: x-large;
 }
+#detailsproduct .single-pro-det{
+  width: 40%;
+  margin-right: 5opx;
+}
+
+#small-img-group{
+  display: flex;
+  justify-content: space-between;
+
+}
+.small-img-col{
+  padding: 5px;
+  flex-basis: 100%;
+  cursor: pointer;
+}
+#detailsproduct{
+  display: flex;
+  margin-top: 20px;
+}
+#detailsproduct .single-pro-bio{
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#detailsproduct .single-pro-bio h4{
+  padding: 40px 0 20px 0;
+}
+#detailsproduct .single-pro-bio h2{
+  font-size: 26px;
+}
+#detailsproduct .single-pro-bio select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#detailsproduct .single-pro-bio button{
+  background-color: #088178;
+  color: white;
+}
+#detailsproduct .single-pro-bio input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+#detailsproduct .single-pro-bio input:focus {
+  outline: none;
+}
+#detailsproduct .single-pro-bio span{
+  line-height: 25px;
+}
+
+
 
 
 @media (max-width:799px) {
