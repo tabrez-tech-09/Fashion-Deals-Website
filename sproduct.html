@@ -78,7 +78,7 @@
                 <p>Summer Collection New Modern Design</p>
                 <div class="pro-container" >
 
-                    <div class="pro" onclick="window.location.href='products/sproduct.html';">
+                    <div class="pro" id="myDiv">
                         <img src="img/products/n1.jpg" alt="">
                         <div class="des">
                             <span>adidas</span>
@@ -234,6 +234,14 @@
                 }
             });
         </script>
+  
+
+<script>
+  document.getElementById('myDiv').addEventListener('click', function() {
+    window.location.href = 'http://127.0.0.1:5501/sproduct.html';
+  });
+</script>
+
         
 
         
