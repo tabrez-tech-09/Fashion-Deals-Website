@@ -91,6 +91,7 @@ body {
   display: flex;
   align-items:center;
   justify-content: center;
+  
 }
 
 #navbar li {
@@ -713,5 +714,17 @@ font-size: 38px;
 }
 #footer .coyright{
   text-align: start;
+}
+#detailsproduct{
+  display: flex;
+  flex-direction: column;
+}
+#detailsproduct .single-pro-det{
+  width: 100%;
+  margin-right: 0px;
+}
+#detailsproduct .single-pro-bio{
+  width: 100%;
+  margin-top: 30px;
 }
 }
