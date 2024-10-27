@@ -877,10 +877,19 @@ font-size: 38px;
   height: 40vh;
 }
 #sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 320px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+} /*
+#sm-banner .banner-box{
   height: 40vh;
-  width: 100%;
-
-}
+}*/
 #sm-banner .banner-box2{
   margin-top: 20px;
 }
