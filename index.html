@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ecommerce Cara website/title>
+        <title>Ecommerce Project</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -16,13 +16,15 @@
         <section id="header">
             <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
             <div>
+               
                 <ul id="navbar">
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="shop.html">shop</a></li>
+                    <li><a class="active"  href="index.html">Home</a></li>
+                    <li><a  href="shop.html">shop</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="https://chatgpt.com/">chatgpt</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li id="lg-back" ><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <a href="#" id="close"  ><i class="fa fa-times" >  </i></a>
                 </ul>
             </div>
             <div id="mobile">
@@ -30,7 +32,6 @@
                 <i id="bar" class="fas fa-outdent"> </i>
             </div>
         </section>
-
         <section id="hero">
             <h4>Trade-in-offer</h4>
             <h2>Super value deals</h2>
@@ -68,15 +69,15 @@
 
         </section>
 
-        <section id="product1" class="section-p1">
+        <section id="product1" class="section-p1" >
             <h2>Featured Products</h2>
             <p>Summer Collection New Mordan Design</p>
             <div class="pro-container">
-                <div class="pro">
+                <div class="pro" onclick="window.location.href='sproduct.html'">
                     <img src="img/products/f1.jpg" alt="">
                     <div class="des">
                         <span>adidas</span>
-                        <h5>Cartoon Astronaut T shirts</h5>
+                        <h5>hollister black denim jack</h5>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -88,8 +89,8 @@
                     </div>
                     <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
                 </div>
-                <div class="pro">
-                    <img src="img/products/f2.jpg" alt="">
+                <div class="pro" onclick="window.location.href='tspoduct.html'"> <!--tspoduct.html-->
+                    <img src="img/products/g4.jpg" alt="">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Cartoon Astronaut T shirts</h5>
@@ -104,8 +105,8 @@
                     </div>
                     <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
                 </div>
-                <div class="pro">
-                    <img src="img/products/f3.jpg" alt="">
+                <div class="pro"onclick="window.location.href='bsproduct.html'"><!--bsproduct.html-->
+                    <img src="img/products/b1.jpg" alt="">
                     <div class="des">
                         <span>adidas</span>
                         <h5>Cartoon Astronaut T shirts</h5>
@@ -120,11 +121,11 @@
                     </div>
                     <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
                 </div>
-                <div class="pro">
-                    <img src="img/products/f4.jpg" alt="">
+                <div class="pro"onclick="window.location.href='kurtaproduct.html'"> <!---kurtaproduct.html-->
+                    <img src="img/products/ku1.jpg" alt="">
                     <div class="des">
                         <span>adidas</span>
-                        <h5>Cartoon Astronaut T shirts</h5>
+                        <h5>Cartoon Astronaut kurta</h5>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -132,7 +133,7 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-regular fa-star-half-stroke"></i>
                         </div>
-                        <h4>$74</h4>
+                        <h4>$189</h4>
                     </div>
                     <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
                 </div>
@@ -440,7 +441,7 @@
                 <p>tabreztech HTml CsS  @copyright</p>
             </div>
         </footer>
-        <link rel="stylesheet" href="scripts.js">
+      
+        <script src="scripts.js"></script>
     </body>
-
 </html>

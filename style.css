@@ -91,6 +91,7 @@ body {
   display: flex;
   align-items:center;
   justify-content: center;
+  
 }
 
 #navbar li {
@@ -124,6 +125,9 @@ body {
   display: none;
   align-items: center;
 
+}
+#close{
+  display: none;
 }
 /* -------- end the header -------------*/
 /*-------------------------------------------------------------------*/
@@ -482,7 +486,286 @@ footer .icon i:hover{
   color: red;
 }
 
+
+/* ---------------------  shop section start -------------------------- ----------------------------------*/
+
+#stayhome{
+  background-image: url(img/banner/b1.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+#stayhome h1{
+  color: white;
+}
+#stayhome p{
+  color: pink;
+}
+#stayhome p span {
+  color: red;
+}
+
+#pagesetion{
+  text-align: center;
+}
+#pagesetion a {
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: x-large;
+}
+#detailsproduct .single-pro-det{
+  width: 40%;
+  margin-right: 5opx;
+}
+
+#small-img-group{
+  display: flex;
+  justify-content: space-between;
+
+}
+.small-img-col{
+  padding: 5px;
+  flex-basis: 100%;
+  cursor: pointer;
+}
+#detailsproduct{
+  display: flex;
+  margin-top: 20px;
+}
+#detailsproduct .single-pro-bio{
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#detailsproduct .single-pro-bio h4{
+  padding: 40px 0 20px 0;
+}
+#detailsproduct .single-pro-bio h2{
+  font-size: 26px;
+}
+#detailsproduct .single-pro-bio select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#detailsproduct .single-pro-bio button{
+  background-color: #088178;
+  color: white;
+}
+#detailsproduct .single-pro-bio input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+#detailsproduct .single-pro-bio input:focus {
+  outline: none;
+}
+#detailsproduct .single-pro-bio span{
+  line-height: 25px;
+}
+
+/*----------------------- blog page start ----------------*/
+
+.blog-header{
+  background-image: url(img/banner/b19.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#blog{
+  padding: 150px 0 150px 150px;
+}
+#blog .blog-box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding-bottom: 90px;
+}
+#blog .blog-img{
+  width: 50%;
+  margin-right: 40px;
+}
+#blog img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+#blog .blog-details{
+  width: 50%;
+}
+
+#blog .blog-details a{
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  font-weight: 700;
+  transition: 0.3s;
+
+}
+#blog .blog-details a::after{
+ content: "";
+ width: 50px;
+ height: 1px;
+ background-color:red;
+ position: absolute;
+ margin-top: 20px;
+}
+#blog .blog-details a:hover{
+  color: #088178;
+
+}
+#blog .blog-details a:hover::after{
+  color: #088178;
+
+}
+#blog .blog-box h1{
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: whitesmoke;
+  z-index: -9;
+}
+
+/* ---------- contact sec--------------------*/
+
+
+
+
+#lets-talks{
+  background-image: url(img/banner/b19.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.contac-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contac-details #details-left{
+  width: 40%;
+  padding: 30px 0 30px 20px;
+  
+}
+.contac-details #details-left span,  
+#form-det form span{
+  font-size: 12px;
+}
+.contac-details #details-left h2{
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+.contac-details #details-left h3{
+  font-size: 15px;
+}
+.contac-details #details-left li{
+  list-style: none;
+  padding: 20px 0;
+  display: flex;
+}
+.contac-details #details-left li i{
+ font-size: 14px;
+ padding-right: 30px;
+}
+.contac-details #details-left li p{
+  margin: 0;
+  font-size: 14px;
+ }
+
+ .contac-details .map{
+  width: 55%;
+  height: 400px;
+ }
+ .contac-details .map i{
+  width: 100%;
+  height: 100%;
+ }
+
+ #form-det{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #088178;
+ }
+ #form-det form {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+ }
+ #form-det form input,
+ #form-det form textarea{
+  width: 100%;
+  padding: 12px 15px;
+  overflow: none;
+  margin-bottom: 20px;
+  border: 1px solid #088178;
+ }
+
+ #form-det form button{
+  background-color: #088178;
+  color: white;
+ }
+ #form-det .people div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  margin-right: 5px;
+ }
+ #form-det .people div p{
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+ }
+
+ #form-det .fine-me{
+  color: #088178;
+ }
+
+
+
+
+
+
 @media (max-width:799px) {
+  .section-p1 {
+    padding: 40px 80px;
+  }
   #navbar {
     display: flex;
     flex-direction: column;
@@ -496,21 +779,194 @@ footer .icon i:hover{
     background-color: #E3E6F3;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
-}
-#navbar .active{
-  right: 0px;
+    transition: 0.3s;
 }
 #navbar li{
   margin-bottom: 25px;
 }
+#navbar.active{
+  right: 0px;
+}
+
 #mobile {
   display: flex;
   align-items: center;
 
 }
 #mobile i {
-  color: black;
+  color: red;
   font-size: 24px;
   padding-left: 20px;
 }
+
+#close{
+  display: inline;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: red;
+  font-size: 24px;
+}
+#lg-back{
+  display: none;
+}
+#hero{
+  height: 70vh;
+  padding: 0 80px;
+  background-position: top 30% right 30%;
+}
+#feature {
+  justify-content:center ;
+}
+#feature .fe-box{
+  margin: 15px 15px;
+}
+#product1 .pro-container{
+  justify-content: center;
+}
+#product .pro{
+  margin: 15px ;
+}
+#banner{
+  height: 20vh;
+}
+#sm-banner .banner-box{
+  height: 30vh;
+  width: 100%;
+
+}
+#banner3{
+  padding: 0 40px;
+}
+#banner3 .banner-box{
+  width: 28%;
+}
+#newsletter .form{
+  width: 70%;
+}
+}
+
+@media (max-width:477px) {
+  .section-p1 {
+    padding: 20px;
+  }
+  #header{
+    padding: 10px 30px;
+  }
+  h1 {
+font-size: 38px;
+  }
+  h2 {
+    font-size: 32px;
+      }
+#hero{
+  padding: 0 20px;
+  background-position: 55%;
+}
+#feature {
+  justify-content:space-between ;
+}
+#feature .fe-box{
+  margin: 155px;
+  margin: 0 0 15px 0;
+}
+#product .pro{
+  width: 100%;
+}
+#banner{
+  height: 40vh;
+}
+#sm-banner .banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 320px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+} /*
+#sm-banner .banner-box{
+  height: 40vh;
+}*/
+#sm-banner .banner-box2{
+  margin-top: 20px;
+}
+#banner3{
+  padding: 0 20px;
+}
+#banner3 .banner-box{
+  width: 100%;
+}
+#newsletter{
+  padding: 40px 20px;
+}
+#newsletter .form{
+  width: 100%;
+}
+#footer .coyright{
+  text-align: start;
+}
+#detailsproduct{
+  display: flex;
+  flex-direction: column;
+}
+#detailsproduct .single-pro-det{
+  width: 100%;
+  margin-right: 0px;
+}
+#detailsproduct .single-pro-bio{
+  width: 100%;
+  margin-top: 30px;
+}
+/*   -------start blog----*/
+#blog .blog-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#blog {
+  padding: 100px 20px 0 20px;
+}
+#blog .blog-img{
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 30px;
+}
+#blog .blog-details{
+  width: 100%;
+}
+
+/*    ---------------  contact resonsive ---------------*/
+.contac-details{
+  flex-direction: column;
+}
+
+.contac-details #details-left{
+  width: 100%;
+  margin-bottom: 30px;
+ 
+}
+ #form-det{
+  margin: 10px;
+  padding: 30px 10px;
+  flex-wrap: wrap;
+ }
+ #form-det form {
+  width: 100%;
+  margin: 30px;
+ }
+ #form-det .people div{
+ margin-top: 20px;
+ }
+ .contac-details .map{
+  width: 100%;
+  height: 100%;
+  margin-left: 30px;
+ }
+ .contac-details .map i{
+  width: 100%;
+  height: 100%;
+ }
 }
