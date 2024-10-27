@@ -740,6 +740,7 @@ footer .icon i:hover{
  #form-det .people div{
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
   width: 100%;
   height: 40%;
   object-fit: cover;
@@ -750,8 +751,6 @@ footer .icon i:hover{
   font-size: 13px;
   line-height: 25px;
  }
-
-
 
 
 
