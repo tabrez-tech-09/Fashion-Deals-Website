@@ -1,5 +1,4 @@
-<<<<<<< HEAD
- const bar = document.getElementById('bar');
+const bar = document.getElementById('bar');
  const close = document.getElementById('close');
  const nav = document.getElementById('navbar');
  if(bar) {
@@ -70,18 +69,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     updateCart();
 });
-=======
- const bar = document.getElementById('bar');
- const close = document.getElementById('close');
- const nav = document.getElementById('navbar');
- if(bar) {
-    bar.addEventListener('click', () => {
-        nav.classList.add('active');
-     })
- }
- if(close) {
-    close.addEventListener('click', () => {
-        nav.classList.remove('active');
-    })
- }
->>>>>>> 5ac19947cc00e7030b7c7a318576f6265cc54589
